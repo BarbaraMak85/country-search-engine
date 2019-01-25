@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+    margin: auto;
+}
+
+body {
+    background-image: url("https://images.unsplash.com/photo-1503503330041-4cd943d2b61f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1102&q=80");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: auto;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    opacity: 0.5;
+    background-color: #5C3317;
+    width: 40%;
+    height: auto;
+    border: none;
+    border-radius: 6px;
+    margin: auto;
+}
+
+h1 {
+    font-family: 'Orbitron', sans-serif;
+    color: #fff;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+button {
+    width: 300px;
+    height: 30px;
+    font-family: 'Orbitron', sans-serif;
+    color: #330000;
+    margin: auto;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+input {
+    width: 300px;
+    height: 30px;
+    font-family: 'Orbitron', sans-serif;
+    color: #330000;
+    margin: auto;
+    margin-top: 5px;
+}
+
+h2 {
+    font-family: 'Orbitron', sans-serif;
+    color: #fff;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+li {
+    font-family: 'Orbitron', sans-serif;
+    color: #fff;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+}
